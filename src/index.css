@@ -8,5 +8,5 @@
 :root{
   background: url("../src/assets/universalbackground.png");
   font-family: 'Sahitya', serif;
-  background-clip: 100%;
+  background-size: 100%;
 }

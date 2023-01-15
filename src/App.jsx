@@ -1,7 +1,6 @@
 
 import Navbar from "../src/components/Navbar"
-
-import {Home } from "../src/components/Home";
+import Home from "../src/components/Home"
 import './App.css'
 
 function App() {
@@ -11,6 +10,7 @@ function App() {
     <div className="App ">
           <Navbar/>
           <Home/>
+     
        
     </div>
   )
