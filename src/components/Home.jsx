@@ -1,10 +1,13 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 import tresor from "../assets/tresor.png"
 
 import shoot from "../assets/shoot.svg"
 function Home() {
   return (
+    <div>
+    <Navbar/>
     <div className="flex ">
       <div className="left w-[45%] ">
         <div className="intro-phrase flex flex-col   justify-center  h-[600px]  pl-[5rem]">
@@ -41,6 +44,7 @@ function Home() {
                     <img src={tresor} alt="" />
                 </div>
       </div>
+    </div>
     </div>
   );
 }

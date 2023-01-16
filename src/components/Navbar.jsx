@@ -10,9 +10,9 @@ import logo from "../assets/logo.svg"
 
              <ul className="list-none sm:flex hidden justify-center items-center flex-1">
                 <li   className="m-10 font-bold text-xl "><a href="/home">Home</a></li>
-                <li  className="m-10 font-bold text-xl" ><a href="">About</a></li>
-                <li   className="m-10 font-bold text-xl" ><a href="">My Work</a></li>
-                <li  className="m-10 font-bold text-xl" ><a href="">Reach out</a></li>
+                <li  className="m-10 font-bold text-xl" ><a href="/about">About</a></li>
+                <li   className="m-10 font-bold text-xl" ><a href="myWork">My Work</a></li>
+                <li  className="m-10 font-bold text-xl" ><a href="./reachOut">Reach out</a></li>
               
              </ul>
     

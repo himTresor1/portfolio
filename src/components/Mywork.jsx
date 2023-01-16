@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from './Navbar';
+import Navbar from './Navbar'
 
-function ReachOut ( ) {
+function MyWork ( ) {
     return (
             <div>
                 <Navbar/>
+                
             </div>
     )
 
 }
-export default ReachOut ;
+export default MyWork
