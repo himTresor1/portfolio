@@ -1,13 +1,21 @@
 import React from "react";
 import Navbar from "./Navbar";
 import main from "../assets/main.png";
+import webdesign from "../assets/webdesign.png"
+import womanHotel from "../assets/womanHotel.png"
+import upload from "../assets/upload.png"
+import computerheadset from "../assets/computerheadset.png"
+import artificialintelligence from "../assets/artificialintelligence.png"
 
 function About() {
   return (
     <div>
       <Navbar />
       <div className=" flex main h-screen">
-        <div className=" h-full w-[20%]  one ">xcvs</div>
+        <div className=" h-full w-[20%]  mt-[8rem]  flex flex-col one ">
+                <img className="mt-[3rem] h-[16rem] w-[20rem]"src={upload} alt="" />
+                <img  className="mt-[3rem] h-[16rem] w-[16rem] mt-[10rem]" src={computerheadset} alt="" />
+        </div>
         <div className="  h-full mt-[4rem]  w-[60%]  two">
           <div className="upper flex  leading-[3rem] flex-col justify-center items-center">
             <h1 className="font-bold text-[3.5rem] text-[#535050] ">
@@ -97,7 +105,11 @@ function About() {
             </div>
           </div>
         </div>
-        <div className=" h-full w-[20%] three">s</div>
+        <div className=" h-full w-[20%] three pt-[10rem]">
+            <img className="mt-[3rem]"src={webdesign} alt="" />
+            <img className="mt-[3rem]"src={womanHotel} alt="" />
+            <img className="mt-[3rem]"src={artificialintelligence} alt="" />
+        </div>
       </div>
     </div>
   );
