@@ -1,4 +1,8 @@
 import React from "react";
+
+import tresor from "../assets/tresor.png"
+
+import shoot from "../assets/shoot.svg"
 function Home() {
   return (
     <div className="flex ">
@@ -20,18 +24,22 @@ function Home() {
             </h1>
           </div>
         </div>
-        <div className=" flex  justify-center h-[400px] text-[1rem] font-bold mini-explanatory ">
-            <p>
+        <div className=" flex  flex-col  justify-center items-center h-[300px] text-[1rem] font-bold mini-explanatory  ">
+            <p className="h-[8rem]">
                     I am a  pro UI/UX  designer  and motions designer &#128151; <br />
                     Uhmm , I design my own legacies  and uhmmm    &#9804; <br/>
                     I am welcome to work with you I know &#128514;   <br/>
                     Hhhh , I am AMIZERO TRESOR &#129409; 
             </p>
-            <button className="bg-black h-[4rem] w-[13rem]">DOWNLOAD CV </button>
+            <button className="bg-black h-[4rem] w-[13rem] text-white   ">DOWNLOAD CV </button>
         </div>
       </div>
-      <div className=" bg-blue-400 w-[55%] right">
-        <h1>sdj</h1>
+      <div className="  pt-[2rem]  flex w-[55%] right">
+                <div className=" w-[30%]   justify-center pt-[15rem] h-full sticker">   
+                <img src={shoot} alt=""  /></div>
+                <div className="svg">
+                    <img src={tresor} alt="" />
+                </div>
       </div>
     </div>
   );
