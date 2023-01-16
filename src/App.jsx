@@ -2,7 +2,7 @@
 import Navbar from "../src/components/Navbar"
 import Home from "../src/components/Home"
 import About from "./components/About"
-i
+
 import './App.css'
 
 function App() {
