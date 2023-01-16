@@ -7,7 +7,7 @@ function About() {
     <div>
       <Navbar />
       <div className=" flex main h-screen">
-        <div className=" h-full w-[20%] bg-red-600 one ">xcvs</div>
+        <div className=" h-full w-[20%]  one ">xcvs</div>
         <div className="  h-full mt-[4rem]  w-[60%]  two">
           <div className="upper flex  leading-[3rem] flex-col justify-center items-center">
             <h1 className="font-bold text-[3.5rem] text-[#535050] ">
