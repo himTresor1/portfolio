@@ -12,7 +12,7 @@ function About() {
     <div>
       <Navbar />
       <div className=" flex main h-screen">
-        <div className=" h-full w-[20%]  mt-[8rem]  flex flex-col one ">
+        <div className=" h-full w-[20%]  mt-[8rem]  pl-[8rem] flex flex-col one ">
                 <img className="mt-[3rem] h-[16rem] w-[20rem]"src={upload} alt="" />
                 <img  className="mt-[3rem] h-[16rem] w-[16rem] mt-[10rem]" src={computerheadset} alt="" />
         </div>
