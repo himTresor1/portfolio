@@ -7,6 +7,12 @@ import upload from "../assets/upload.png"
 import computerheadset from "../assets/computerheadset.png"
 import artificialintelligence from "../assets/artificialintelligence.png"
 import Figma from "../assets/Figma.svg"
+import ae from "../assets/ae.svg"
+import id from "../assets/id.svg"
+import ai from "../assets/ai.svg"
+import xd from "../assets/xd.svg"
+import lr from "../assets/lr.svg"
+import ps from "../assets/ps.svg"
 
 import "../App.css"
 
@@ -114,7 +120,7 @@ function About() {
             <img className="mt-[3rem]"src={artificialintelligence} alt="" />
         </div>
       </div>
-      <div className="  flex-col cards h-[20rem] w-full px-[2rem]">
+      <div className="  flex  flex-row justify-evenly cards h-[20rem] w-full  mt-[2rem] px-[2rem]">
         <div className="oneCard">
         <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
           <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
@@ -126,53 +132,53 @@ function About() {
 
         <div className="oneCard">
         <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
-          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
-          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
-          <p className="font-bold text-[4rem] ">83%</p>
+          <img className="w-[5rem] h-[5rem]"src={ps} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">Adobe Photoshop</h1>
+          <p className="font-bold text-[4rem] ">90%</p>
         </div>
         </div>
 
 
         <div className="oneCard">
         <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
-          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
-          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
-          <p className="font-bold text-[4rem] ">83%</p>
+          <img className="w-[5rem] h-[5rem]"src={xd} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">Adobe XD</h1>
+          <p className="font-bold text-[4rem] ">88%</p>
         </div>
         </div>
 
 
         <div className="oneCard">
         <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
-          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
-          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
-          <p className="font-bold text-[4rem] ">83%</p>
+          <img className="w-[5rem] h-[5rem]"src={ae} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">Adobe After Effects</h1>
+          <p className="font-bold text-[4rem] ">70%</p>
         </div>
         </div>
 
 
         <div className="oneCard">
         <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
-          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
-          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
-          <p className="font-bold text-[4rem] ">83%</p>
+          <img className="w-[5rem] h-[5rem]"src={lr} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">Adobe Lightroom</h1>
+          <p className="font-bold text-[4rem] ">80%</p>
         </div>
         </div>
 
 
         <div className="oneCard">
         <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
-          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
-          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
-          <p className="font-bold text-[4rem] ">83%</p>
+          <img className="w-[5rem] h-[5rem]"src={id} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">Adobe Indesign</h1>
+          <p className="font-bold text-[4rem] ">79%</p>
         </div>
         </div>
 
 
         <div className="oneCard">
         <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
-          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
-          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
+          <img className="w-[5rem] h-[5rem]"src={ai} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">Adobe Illustrator</h1>
           <p className="font-bold text-[4rem] ">83%</p>
         </div>
         </div>
