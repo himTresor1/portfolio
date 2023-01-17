@@ -6,6 +6,9 @@ import womanHotel from "../assets/womanHotel.png"
 import upload from "../assets/upload.png"
 import computerheadset from "../assets/computerheadset.png"
 import artificialintelligence from "../assets/artificialintelligence.png"
+import Figma from "../assets/Figma.svg"
+
+import "../App.css"
 
 function About() {
   return (
@@ -110,6 +113,73 @@ function About() {
             <img className="mt-[3rem]"src={womanHotel} alt="" />
             <img className="mt-[3rem]"src={artificialintelligence} alt="" />
         </div>
+      </div>
+      <div className="  flex-col cards h-[20rem] w-full px-[2rem]">
+        <div className="oneCard">
+        <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
+          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
+          <p className="font-bold text-[4rem] ">83%</p>
+        </div>
+        </div>
+
+
+        <div className="oneCard">
+        <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
+          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
+          <p className="font-bold text-[4rem] ">83%</p>
+        </div>
+        </div>
+
+
+        <div className="oneCard">
+        <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
+          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
+          <p className="font-bold text-[4rem] ">83%</p>
+        </div>
+        </div>
+
+
+        <div className="oneCard">
+        <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
+          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
+          <p className="font-bold text-[4rem] ">83%</p>
+        </div>
+        </div>
+
+
+        <div className="oneCard">
+        <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
+          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
+          <p className="font-bold text-[4rem] ">83%</p>
+        </div>
+        </div>
+
+
+        <div className="oneCard">
+        <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
+          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
+          <p className="font-bold text-[4rem] ">83%</p>
+        </div>
+        </div>
+
+
+        <div className="oneCard">
+        <div class=" flex flex-col py-[2rem] items-center w-[15rem] h-[17.5rem]  grad">
+          <img className="w-[5rem] h-[5rem]"src={Figma} alt="" />
+          <h1 className="font-bold text-[1.5rem] pt-[1rem]">FIGMA</h1>
+          <p className="font-bold text-[4rem] ">83%</p>
+        </div>
+        </div>
+
+
+        
+
       </div>
     </div>
   );

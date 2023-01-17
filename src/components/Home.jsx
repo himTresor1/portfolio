@@ -28,13 +28,13 @@ function Home() {
           </div>
         </div>
         <div className=" flex  flex-col  justify-center items-center h-[300px] text-[1rem] font-bold mini-explanatory  ">
-            <p className="h-[8rem]">
+            <p className="h-[8rem] text-[2rem]">
                     I am a  pro UI/UX  designer  and motions designer &#128151; <br />
                     Uhmm , I design my own legacies  and uhmmm    &#9804; <br/>
                     I am welcome to work with you I know &#128514;   <br/>
                     Hhhh , I am AMIZERO TRESOR &#129409; 
             </p>
-            <button className="bg-black h-[4rem] w-[13rem] text-white   ">DOWNLOAD CV </button>
+            <button className="bg-black h-[4rem] w-[13rem] text-white mt-[5rem]    ">DOWNLOAD CV </button>
         </div>
       </div>
       <div className="  pt-[2rem]  flex w-[55%] right">
