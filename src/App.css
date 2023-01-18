@@ -4,3 +4,27 @@
     backdrop-filter: blur(20.5px);  
     border-radius: 39px;
 }
+.inputbox1{
+
+box-sizing: border-box;
+
+width: 792px;
+height: 128px;
+left: 561px;
+top: 305px;
+
+border: 4px solid #000000;
+border-radius: 5px;
+}
+
+.inputbox2{
+    box-sizing: border-box;
+
+width: 792px;
+height: 333px;
+left: 561px;
+top: 458px;
+
+border: 4px solid #000000;
+border-radius: 5px;
+}
