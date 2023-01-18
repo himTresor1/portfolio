@@ -7,18 +7,18 @@ function ReachOut ( ) {
     return (
             <div>
                 <Navbar/>
-                <div className="secondmain  h-screen flex flex-row">
+                <div className="secondmain    fixed  h-screen flex flex-row">
                     <div className=" w-[20%]   flex   justify-center items-center svg1">
                         <img src={sentmessage}alt="" />
                     </div>
-                    <div className="  flex flex-col w-[60%]  justify-center items-center  form">
+                    <div className="  flex flex-col w-[60%]   mt-[4rem] items-center  form">
                                     <div className="intro">
                                         <h1 className='text-[2rem] font-bold'>Reach out</h1>
                                     </div>
                                     <div className="form">
-                                        <form  className=" flex flex-col  my-[4rem] "action="">
-                                                <input className="w-[792px] h-[128px] border-solid border-3  border-black rounded-lg  my-[2rem]" type="text"  for="Email"  id='email'/>
-                                                <input  className="w-[792px] h-[333px] border-solid border-3m border-black-400 rounded-lg" type="  message"  for="message" id='message'/>
+                                        <form  className=" flex flex-col  my-[4rem] "action="https://api.staticforms.xyz/submit">
+                                                <input className="inputbox1 mt-[2rem] bg-transparent  placeholder-black  " type="text"  for="Email"  placeholder='Email'   id='email'/>
+                                                <input  className="inputbox2 mt-[2rem] bg-transparent justify-center items-center  "placeholder='Message' type="  message"  for="message" id='message'/>
                                         </form>
                                     </div>
                     </div>
